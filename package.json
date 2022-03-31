@@ -1,5 +1,5 @@
 {
-  "name": "app2",
+  "name": "myapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,14 +12,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "set PORT=3000 && react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "dev": "nodemon server.js",
-    "eject": "react-scripts eject",
-    "server": "webpack-dashboard -- webpack-dev-server --inline --port 8080",
-    "start:dev": "webpack-dev-server --open --config webpack/webpack.config.dev.js", 
-    "webdriver-update": "webdriver-manager update"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -38,8 +34,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
   }
 }
