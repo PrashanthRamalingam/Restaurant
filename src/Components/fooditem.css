@@ -1,54 +1,124 @@
- #h1{border-radius:1px; color:white; justify-content:center; border-end-end-radius: 100px;
-   background: -webkit-linear-gradient(top, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);display: flex; border: 1px solid black;
-   margin: 10px;margin-right:000px; margin-left:00px;}
- #h7{ color: aliceblue ; font-size: 72px;  background: linear-gradient(to bottom, rgba(174,188,191,1) 0%,rgba(110,119,116,1) 50%,rgba(10,14,10,1) 51%,rgba(10,8,9,1) 100%);
-   border: 1px solid transparent; margin-right:-300px; margin-left:300px;  justify-content:center; display: flex;border-end-end-radius: 100px;border-start-start-radius: 100px;}
-
- #h2,#h4,#h5  {font-size: 30px; justify-content:space-between;font-weight: bold; font-style: oblique;font-family:-apple-system ;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/78/Indian-vegetarian-mark.svg);  
- background-position:left; background-repeat: no-repeat;  background-size:2%;
-  text-transform:uppercase; background: -webkit-linear-gradient(top, rgba(240,183,161,1) 0%,rgba(140,51,16,1) 50%,rgba(117,34,1,1) 51%,rgba(191,110,78,1) 100%); border-radius: 10px; 
-  margin-right:-300px; margin-left:300px ;
-  border: .1px solid rgb(27, 15, 4); }
-  
-  #h3 { font-size: 30px; font-weight: bold;font-style: oblique;font-family:-apple-system ;
-   background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/ba/Non_veg_symbol.svg);  
-   background-position:left; background-repeat: no-repeat;  background-size:2%;
-    text-transform:uppercase; background: -webkit-linear-gradient(top, rgba(240,183,161,1) 0%,rgba(140,51,16,1) 50%,rgba(117,34,1,1) 51%,rgba(191,110,78,1) 100%); text-align:justify; 
-    border-radius: 10px;margin-right:-300px; margin-left:300px;   
-    border: .1px solid rgb(27, 15, 4);  }
-        
-    #h6 {  font-size: 30px; font-weight: bold;   text-transform:uppercase;    justify-content:space-between;font-style: oblique;font-family:-apple-system ;
-         background: -webkit-linear-gradient(top, rgba(183,222,237,1) 0%,rgba(113,206,239,1) 50%,rgba(33,180,226,1) 51%,rgba(183,222,237,1) 100%); border-radius: 10px; 
-         margin-right:-300px; margin-left:300px;padding: 5px; border: .1px solid rgb(27, 15, 4);  }
-            
- #ab  { text-transform:uppercase; font-weight: bold;  width: 10%;height:35px ; 
-      border: 1px solid black; border-radius: 5px; color: aliceblue;  padding-bottom: 10px;padding-top: 10px;
-   margin: 00px;  justify-content:space-between;  margin-right:-300px; margin-left:640px;display: flex; margin-bottom: 10px;margin-top: -30px;
-   background: -webkit-linear-gradient(top, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); }
- 
-
-  #h2:hover,#h3:hover,#h4:hover,#h5:hover,#h6:hover   {
- 
-     animation: ch 1s 1;}
-  
-@keyframes ch { from{height: 70px;width:100%; transform: rotate(0);
-} 
-    to{height: 80px;width:105%;transform: scale(1.2);}
+#h1 {
+  border-radius: 1px;
+  color: white;
+  justify-content: center;
+  border-end-end-radius: 100px;
+  background: -webkit-linear-gradient(top, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, #000000 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%);
+  display: flex;
+  border: 1px solid black;
+  margin: 10px;
+  margin-right: 000px;
+  margin-left: 00px;
 }
+
 #h7 {
-   font-size: 80px;
-   color: #fff;
-   text-align: center;
-   animation: glow 1s ease-in-out infinite alternate;
- }
+  color: aliceblue;
+  font-size: 72px;
+  background: linear-gradient(to bottom, rgba(174, 188, 191, 1) 0%, rgba(110, 119, 116, 1) 50%, rgba(10, 14, 10, 1) 51%, rgba(10, 8, 9, 1) 100%);
+  border: 1px solid transparent;
+  margin-right: -300px;
+  margin-left: 300px;
+  justify-content: center;
+  display: flex;
+  border-end-end-radius: 100px;
+  border-start-start-radius: 100px;
+}
+
+#h2
+{font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  justify-content: space-between;
+  display: flex;
+  flex-direction:column-reverse;
+  font-style: oblique;
+  font-family: -apple-system;
+  background: -webkit-linear-gradient(top, rgba(240, 183, 161, 1) 0%, rgba(140, 51, 16, 1) 50%, rgba(117, 34, 1, 1) 51%, rgba(191, 110, 78, 1) 100%);
+  border-radius: 10px;
+  margin-right: -300px;
+  margin-left: 300px;
+  padding: 5px;
+  border: .1px solid rgb(27, 15, 4);
+}
+
  
- @keyframes glow {
-   from {
-     text-shadow: 0 0 10px rgb(20, 16, 243), 0 0 20px rgb(55, 12, 247), 0 0 30px #0064e6, 0 0 40px #1700e6, 0 0 50px #0064e6, 0 0 60px #0092e6, 0 0 70px #007fe6;
-   }
-   
-   to {
-     text-shadow: 0 0 20px rgb(10, 55, 253), 0 0 30px #4db8ff, 0 0 40px #2912f8, 0 0 50px #594dff, 0 0 60px #3e0af8, 0 0 70px #080cf3, 0 0 80px #3313eb;
-   }
- }
+
+#h6 {
+  display: flex;
+  flex-direction:column-reverse;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  justify-content: space-between;
+  font-style: oblique;
+  font-family: -apple-system;
+  background: -webkit-linear-gradient(top, rgba(183, 222, 237, 1) 0%, rgba(113, 206, 239, 1) 50%, rgba(33, 180, 226, 1) 51%, rgba(183, 222, 237, 1) 100%);
+  border-radius: 10px;
+  margin-right: -300px;
+  margin-left: 300px;
+  padding: 5px;
+  border: .1px solid rgb(27, 15, 4);
+}
+
+#ab {
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 10%;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: aliceblue;
+  padding-bottom: 0px;
+  padding-top: 10px;
+  margin-top: 0px;
+  margin-bottom: -40px;
+  justify-content: space-around;
+  margin-right: -300px;
+  margin-left: 640px;
+  display: flex;
+  
+  background: -webkit-linear-gradient(top, rgba(76, 76, 76, 1) 0%, rgba(89, 89, 89, 1) 12%, rgba(102, 102, 102, 1) 25%, rgba(71, 71, 71, 1) 39%, rgba(44, 44, 44, 1) 50%, rgba(0, 0, 0, 1) 51%, rgba(17, 17, 17, 1) 60%, rgba(43, 43, 43, 1) 76%, rgba(28, 28, 28, 1) 91%, rgba(19, 19, 19, 1) 100%);
+}
+
+#span {padding-right: 60px;
+  color: green;
+  font-weight: bolder;
+  font-size: large;
+  justify-content: space-around;
+}
+
+#h2:hover,
+#h6:hover {
+  animation: ch 1s 1;
+}
+
+@keyframes ch {
+  from {
+    height: 70px;
+    width: 100%;
+    transform: rotate(0);
+  }
+
+  to {
+    height: 80px;
+    width: 105%;
+    transform: scale(1.2);
+  }
+}
+
+#h7 {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgb(20, 16, 243), 0 0 20px rgb(55, 12, 247), 0 0 30px #0064e6, 0 0 40px #1700e6, 0 0 50px #0064e6, 0 0 60px #0092e6, 0 0 70px #007fe6;
+  }
+
+  to {
+    text-shadow: 0 0 20px rgb(10, 55, 253), 0 0 30px #4db8ff, 0 0 40px #2912f8, 0 0 50px #594dff, 0 0 60px #3e0af8, 0 0 70px #080cf3, 0 0 80px #3313eb;
+  }
+}

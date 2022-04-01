@@ -1,13 +1,11 @@
 import './fooditem.css'
 
-function Drinks() {
+function Drinks(props) {
   return (
     <div className='drinks'
-    >  <h1 id='h1' >Cocktails</h1>
-            <div id='h6'>Long Island < button id='ab'>700 INR</button> </div>
-     <div id='h6'>Manhattan  < button id='ab'>900 INR</button> </div>
-     <div id='h6'>Mojito  < button id='ab'>300 INR</button> </div>
-     <div id='h6'>Sunrise   < button id='ab'>600 INR</button> </div>
+    >
+      <div id='h6'><span id='span'>{props.rType}</span> {props.rFood} < button id='ab'>{props.rPrice}</button> </div>
+       
     </div>
 
 

@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Footer from  './Components/Footer';
-
+import Footer from './Components/Footer';
+import Header from './Components/Header';
 ReactDOM.render(
   <React.StrictMode>
     <App />
@@ -17,6 +17,12 @@ ReactDOM.render(
     <Footer />
   </React.StrictMode>,
   document.getElementById('Footer')
+);
+ReactDOM.render(
+  <React.StrictMode>
+    <Header />
+  </React.StrictMode>,
+  document.getElementById('Header')
 );
 
 
