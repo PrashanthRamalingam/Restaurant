@@ -1,4 +1,3 @@
-import { Table } from '@mui/material';
 import './fooditem.css'
 
 function Drinks() {
