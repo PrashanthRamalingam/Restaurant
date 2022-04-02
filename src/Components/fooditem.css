@@ -24,13 +24,13 @@
   border-start-start-radius: 100px;
 }
 
-#h2
-{font-size: 30px;
+#h2 {
+  font-size: 30px;
   font-weight: bold;
   text-transform: uppercase;
   justify-content: space-between;
   display: flex;
-  flex-direction:column-reverse;
+  flex-direction: column-reverse;
   font-style: oblique;
   font-family: -apple-system;
   background: -webkit-linear-gradient(top, rgba(240, 183, 161, 1) 0%, rgba(140, 51, 16, 1) 50%, rgba(117, 34, 1, 1) 51%, rgba(191, 110, 78, 1) 100%);
@@ -41,11 +41,11 @@
   border: .1px solid rgb(27, 15, 4);
 }
 
- 
+
 
 #h6 {
   display: flex;
-  flex-direction:column-reverse;
+  flex-direction: column-reverse;
   font-size: 30px;
   font-weight: bold;
   text-transform: uppercase;
@@ -76,12 +76,13 @@
   margin-right: -300px;
   margin-left: 640px;
   display: flex;
-  
+
   background: -webkit-linear-gradient(top, rgba(76, 76, 76, 1) 0%, rgba(89, 89, 89, 1) 12%, rgba(102, 102, 102, 1) 25%, rgba(71, 71, 71, 1) 39%, rgba(44, 44, 44, 1) 50%, rgba(0, 0, 0, 1) 51%, rgba(17, 17, 17, 1) 60%, rgba(43, 43, 43, 1) 76%, rgba(28, 28, 28, 1) 91%, rgba(19, 19, 19, 1) 100%);
 }
 
-#span {padding-right: 60px;
-  color: green;
+#span {
+  padding-right: 60px;
+  color: rgb(247, 239, 243);
   font-weight: bolder;
   font-size: large;
   justify-content: space-around;

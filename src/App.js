@@ -1,8 +1,7 @@
 import Foodite from './Components/Foodite.js';
 import Drinks from './Components/Drinks';
 import './App.css';
-import Footer from './Components/Footer.js';
-import Header from './Components/Header.js';
+import Header from './Components/Header';
 function App() {
   const data = [
 
@@ -75,17 +74,24 @@ function App() {
   ]
 
   const dataOne = [
+
+    {
+      rType: 'Cocktail',
+      rFood: 'OLD FASHIONED',
+      rPrice: '1600 INR'
+    },
+    {
+      rType: 'Cocktail',
+      rFood: 'NEGRONI',
+      rPrice: '2800 INR'
+    },
     {
       rType: 'Cocktail',
       rFood: 'Mojito',
       rPrice: '390 INR'
     },
 
-    {
-      rType: 'Mocktail',
-      rFood: 'Shirley Ginger',
-      rPrice: '280 INR'
-    },
+
 
     {
       rType: 'Cocktail',
@@ -115,16 +121,7 @@ function App() {
       rPrice: '1240 INR'
     },
 
-    {
-      rType: 'Cocktail',
-      rFood: 'OLD FASHIONED',
-      rPrice: '1600 INR'
-    },
-    {
-      rType: 'Cocktail',
-      rFood: 'NEGRONI',
-      rPrice: '2800 INR'
-    },
+
 
 
   ]
@@ -132,15 +129,15 @@ function App() {
     <div  >
       <h1 id='h7'>Karnataka Cafe </h1>
       <h1 id='h1'>Main Course</h1>
-       {data.map((item) => <Foodite rType={item.rType} rFood={item.rFood} rPrice={item.rPrice} />)} 
-       
+      {data.map((item) => <Foodite rType={item.rType} rFood={item.rFood} rPrice={item.rPrice} />)}
+
       <h1 id='h1' >Cocktails</h1>
-      {dataOne.map((item) =>  <Drinks rType={item.rType} rFood={item.rFood} rPrice={item.rPrice} />)}
-      <Footer/>
-      <Header/>
-    </div> 
+      {dataOne.map((item) => <Drinks rType={item.rType} rFood={item.rFood} rPrice={item.rPrice} />)}
+
+      
+    </div>
   );
-  
+
 }
 
 export default App;
